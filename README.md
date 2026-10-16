@@ -59,6 +59,7 @@ Get a key from the API page of your Evaboot dashboard.
 | Tool | What it does |
 | --- | --- |
 | `build_sn_search_from_prompt` | Turn a natural-language audience into a Sales Navigator search URL. |
+| `get_search_build` | Poll a search that `build_sn_search_from_prompt` is still building. |
 | `get_account_based_search_job` | Poll an account-based lead search started by `build_sn_search_from_prompt`. |
 | `search_sn_leads` | Read one page of a Sales Navigator lead search. |
 | `search_sn_accounts` | Read one page of a Sales Navigator account search. |
@@ -148,7 +149,6 @@ Get a key from the API page of your Evaboot dashboard.
 | Tool | What it does |
 | --- | --- |
 | `verify_token` | Check that your Evaboot credentials are valid. |
-| `update_linkedin_cookies` | Save LinkedIn cookies copied from your own browser. |
 
 ## Requirements
 
