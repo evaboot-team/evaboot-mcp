@@ -20,6 +20,8 @@ https://mcp.evaboot.com/mcp
 
 **ChatGPT**: Settings → Connectors → add the URL above.
 
+**Grok**: on grok.com, Plugins → New Connector → Custom → name it Evaboot and paste the URL → sign in to Evaboot and approve. Works on the free plan. Grok Build users can also install the plugin: `grok plugin install https://github.com/evaboot-labs/evaboot-grok-plugin.git`.
+
 **Cursor / VS Code**: add to your MCP config:
 
 ```json
