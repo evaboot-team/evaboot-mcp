@@ -16,6 +16,12 @@ Remote endpoint (Streamable HTTP):
 https://mcp.evaboot.com/mcp
 ```
 
+**Grok**: on grok.com, Plugins → New Connector → Custom → name it Evaboot and paste the URL → sign in to Evaboot and approve. Works on the free plan.
+
+**Grok Bot**: connectors are shared with your Grok account, so the step above covers it. From the desktop app, send "Add a custom MCP server called evaboot at https://mcp.evaboot.com/mcp", then Authorize.
+
+**Grok Build**: `grok mcp add --transport http evaboot https://mcp.evaboot.com/mcp --header "Authorization: Bearer YOUR_API_KEY"`, or install the plugin with `grok plugin install https://github.com/evaboot-labs/evaboot-grok-plugin.git`.
+
 **Claude**: Settings → Connectors → Add custom connector → paste the URL → sign in to Evaboot and approve.
 
 **ChatGPT**: Settings → Connectors → add the URL above.
